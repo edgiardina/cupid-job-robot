@@ -9,3 +9,8 @@ repeats a job. Newest at the bottom.
 - Faculty Affairs Assistant — College Unbound — https://www.idealist.org/...
 - Retirement Associate II — City of Providence — https://jobs.providenceri.gov/...
 -->
+
+## 2026-07-15 (Wed)
+- Rhode Island College - Advancement Services Manager - https://employment.ric.edu/postings/10417
+- Excel Academy Charter Schools - Operations Manager - https://jobs.jobvite.com/excel/job/oAg0zfw9
+- Lincoln School - Executive Assistant to the Head of School - https://careers.nais.org/jobs/22273067/executive-assistant-to-head-of-school
