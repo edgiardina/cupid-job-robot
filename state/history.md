@@ -14,3 +14,8 @@ repeats a job. Newest at the bottom.
 - Rhode Island College - Advancement Services Manager - https://employment.ric.edu/postings/10417
 - Excel Academy Charter Schools - Operations Manager - https://jobs.jobvite.com/excel/job/oAg0zfw9
 - Lincoln School - Executive Assistant to the Head of School - https://careers.nais.org/jobs/22273067/executive-assistant-to-head-of-school
+
+## 2026-07-16 (Thu)
+- Brown University - Data Management Associate (Division of Advancement) - https://brown.wd5.myworkdayjobs.com/en-US/staff-careers-brown/job/Data-Management-Associate_REQ207970
+- Moses Brown School - Advancement Data & Reporting Analyst - https://www.linkedin.com/jobs/view/advancement-data-reporting-analyst-at-moses-brown-school-4342390459
+- Project Weber/RENEW - Full Charge Bookkeeper - https://weberrenew.org/jobs/
