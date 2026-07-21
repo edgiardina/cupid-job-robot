@@ -19,3 +19,8 @@ repeats a job. Newest at the bottom.
 - Brown University - Data Management Associate (Division of Advancement) - https://brown.wd5.myworkdayjobs.com/en-US/staff-careers-brown/job/Data-Management-Associate_REQ207970
 - Moses Brown School - Advancement Data & Reporting Analyst - https://www.linkedin.com/jobs/view/advancement-data-reporting-analyst-at-moses-brown-school-4342390459
 - Project Weber/RENEW - Full Charge Bookkeeper - https://weberrenew.org/jobs/
+
+## 2026-07-21 (Tue)
+- City of Providence - Manager of Fiscal Operations, Public Safety - https://jobs.providenceri.gov/2026/07/08/manager-of-fiscal-operations-public-safety/
+- Leadership Rhode Island - Program Operations Lead - https://leadershipri.org/wp-content/uploads/2026/04/Program-Operations-Lead-2.pdf
+- Rhode Island College - Executive Assistant II to the VP for Administration & Finance - https://employment.ric.edu/postings/11067
