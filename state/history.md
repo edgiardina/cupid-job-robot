@@ -24,3 +24,8 @@ repeats a job. Newest at the bottom.
 - City of Providence - Manager of Fiscal Operations, Public Safety - https://jobs.providenceri.gov/2026/07/08/manager-of-fiscal-operations-public-safety/
 - Leadership Rhode Island - Program Operations Lead - https://leadershipri.org/wp-content/uploads/2026/04/Program-Operations-Lead-2.pdf
 - Rhode Island College - Executive Assistant II to the VP for Administration & Finance - https://employment.ric.edu/postings/11067
+
+## 2026-07-22 (Wed)
+- Rhode Island College - Executive Assistant to the Provost / VP of Academic Affairs - https://employment.ric.edu/postings/11049
+- City of Providence - Accounts Payable Clerk, City Controller - https://jobs.providenceri.gov/2026/07/10/p-90-26-accounts-payable-clerk-city-controller/
+- (Only 2 sent today: many school/education-ops leads found via search turned out stale on verification - e.g. an Achievement First "Regional Executive Operations and Office Manager" posting no longer exists in their live job board, a "Lives in the Balance" remote Business Office Manager role had an application deadline of March 2026 already passed, and a College Unbound "Administrative and Executive Coordinator" listed on Idealist could not be confirmed on the org's own site. Dropped all rather than send unverified.)
