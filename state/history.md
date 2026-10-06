@@ -248,3 +248,7 @@ repeats a job. Newest at the bottom.
 - Brown University - Planned Giving Program Specialist - https://brown.wd5.myworkdayjobs.com/staff-careers-brown/job/South-Street-Landing/Planned-Giving-Program-Specialist_REQ211615
 - Brown University - Parent Giving and Engagement Officer - https://brown.wd5.myworkdayjobs.com/staff-careers-brown/job/South-Street-Landing/Parent-Giving-and-Engagement-Officer_REQ211489
 - (Only 2 sent, no padding. Both verified via Brown Workday CXS, canApply:true, posted 9/30-10/1. Dropped: RIC Assistant to Athletics Director (needs 4 yrs university experience, nights/weekends), Providence Retirement Associate I (could not load posting), Brown Events Coordinator Saxena (part-time). Gmail reply-check: no new replies from Lida.)
+
+## 2026-10-06 (Tue)
+- University of Rhode Island - Assistant Manager, Payroll Office (SF02228) - https://jobs.uri.edu/postings/17161
+- (Only 1 sent, no padding. Verified directly on jobs.uri.edu (Apply button live, posted 10/5, first consideration 10/17). Dropped: URI Specialist III Grants & Contracts SF02226 (needs 5 yrs research administration), Paylocity Accounting Assistant 4332354 (inactive), Brown remaining roles already sent or poor fit, Bryant roles fundraising/other. Gmail reply-check: no new replies from Lida. Resend 200, id 01a11124-8e57-7c5d-b5fa-12659eb7c4df.)
