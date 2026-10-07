@@ -252,3 +252,8 @@ repeats a job. Newest at the bottom.
 ## 2026-10-06 (Tue)
 - University of Rhode Island - Assistant Manager, Payroll Office (SF02228) - https://jobs.uri.edu/postings/17161
 - (Only 1 sent, no padding. Verified directly on jobs.uri.edu (Apply button live, posted 10/5, first consideration 10/17). Dropped: URI Specialist III Grants & Contracts SF02226 (needs 5 yrs research administration), Paylocity Accounting Assistant 4332354 (inactive), Brown remaining roles already sent or poor fit, Bryant roles fundraising/other. Gmail reply-check: no new replies from Lida. Resend 200, id 01a11124-8e57-7c5d-b5fa-12659eb7c4df.)
+
+## 2026-10-07 (Wed)
+- Brown University - Grants and Financial Coordinator/Specialist (Pathology & Lab Medicine) - https://brown.wd5.myworkdayjobs.com/staff-careers-brown/job/70-Ship-Street/Grants-and-Financial-Coordinator-Specialist_REQ211686
+- Brown RISD Hillel - Director of Finance & Administration - https://job-boards.greenhouse.io/hillel/jobs/4737841005
+- (Only 2 sent, no padding. Brown verified via Workday CXS (canApply:true, posted today); Hillel verified via employer's Greenhouse board API + posting page 200 (posted 9/24, updated 9/28), a stretch-up role. Dropped: URI Coordinator College of Business (needs student-affairs experience), URI Campus Rec Coordinator (needs rec-facility mgmt degree/experience), URI 17116 (same title as 17096 already sent), RI League of Cities and Towns Operations Manager (site 403, unverified), JCDSRI Business Office Associate (aisne link 404). Gmail reply-check: no new replies from Lida. Resend 200, id 01a1164b-a3f5-747b-9628-e7e26f4c99b6.)
