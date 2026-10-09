@@ -261,3 +261,6 @@ repeats a job. Newest at the bottom.
 ## 2026-10-08 (Thu)
 - Rhode Island Community Food Bank - Finance Coordinator - https://rifoodbank.org/careers/ (ADP jobId 558534)
 - (Only 1 sent, no padding. Verified via employer's careers page + ADP requisition API (posted 2026-10-01, $23-26/hr), flagged honestly as a step-down. Dropped: JWU Advancement Services Director/Asst Director (postings gone, jobnotfound), RWU Development Operations Manager (March posting, unverifiable), RIC HR Assoc Director Talent (stretch), URI Coordinator Talent Development (student advising), Brown Asst Director Systems & Data Reporting (data-analytics heavy), Salve Regina leads (unverifiable). Gmail reply-check: no new replies from Lida. Resend 200, id 01a11b74-8590-7042-89d8-be8234cad468.)
+
+## 2026-10-09 (Fri)
+- (No jobs sent - robot struck out note. Brown Workday CXS fully swept (everything new was already sent or poor fit), URI feed pages 1-3 (only already-sent roles; Asst Director Learning & Development needs 5 yrs L&D, skipped), RI Foundation (only the already-sent Development assistant role), Heller Consulting remote Office Manager (TriNet page says "position has been filled"), Providence College Director of Operations (aggregator only, unverifiable), Open Sky (Worcester MA). Gmail reply-check: no new replies from Lida. Resend 200, id 01a12098-d157-757a-8f14-b9f5c66909c0.)
