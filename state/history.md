@@ -264,3 +264,7 @@ repeats a job. Newest at the bottom.
 
 ## 2026-10-09 (Fri)
 - (No jobs sent - robot struck out note. Brown Workday CXS fully swept (everything new was already sent or poor fit), URI feed pages 1-3 (only already-sent roles; Asst Director Learning & Development needs 5 yrs L&D, skipped), RI Foundation (only the already-sent Development assistant role), Heller Consulting remote Office Manager (TriNet page says "position has been filled"), Providence College Director of Operations (aggregator only, unverifiable), Open Sky (Worcester MA). Gmail reply-check: no new replies from Lida. Resend 200, id 01a12098-d157-757a-8f14-b9f5c66909c0.)
+
+## 2026-10-12 (Mon)
+- Rhode Island School of Design (RISD) - Student Financial Services Counselor - https://risd.wd5.myworkdayjobs.com/RISD/job/Providence/Student-Financial-Services-Counselor_R-01969-1
+- (Only 1 sent, no padding. Verified via RISD Workday CXS, canApply:true, posted 9/25. Dropped: RIC Scheduling/Operations Specialist and Degree Audit Specialist (need higher-ed records/advising experience), URI Coordinator Talent Development (advising, onsite evenings), URI Scientific Research Grant Assistant (union-member preference), Providence Fiscal Supervisor and Mgr Fiscal Ops Public Safety (need 3-5 yrs accounting/auditing), Providence Promise Finance & Operations Coordinator and Refugee Dream Center Finance Coordinator (could not verify on employer site).)
