@@ -268,3 +268,8 @@ repeats a job. Newest at the bottom.
 ## 2026-10-12 (Mon)
 - Rhode Island School of Design (RISD) - Student Financial Services Counselor - https://risd.wd5.myworkdayjobs.com/RISD/job/Providence/Student-Financial-Services-Counselor_R-01969-1
 - (Only 1 sent, no padding. Verified via RISD Workday CXS, canApply:true, posted 9/25. Dropped: RIC Scheduling/Operations Specialist and Degree Audit Specialist (need higher-ed records/advising experience), URI Coordinator Talent Development (advising, onsite evenings), URI Scientific Research Grant Assistant (union-member preference), Providence Fiscal Supervisor and Mgr Fiscal Ops Public Safety (need 3-5 yrs accounting/auditing), Providence Promise Finance & Operations Coordinator and Refugee Dream Center Finance Coordinator (could not verify on employer site).)
+## 2026-10-13 (Tue)
+- Brown University - Events Financial Operations Specialist (REQ211791) - https://brown.wd5.myworkdayjobs.com/staff-careers-brown/job/South-Street-Landing/Events-Financial-Operations-Specialist_REQ211791-1
+- University of Rhode Island - Coordinator, College of Business (SF02218) - https://jobs.uri.edu/postings/17169
+- Community College of Rhode Island - Program Delivery Specialist, Workforce Partnerships - https://jobs.ccri.edu/jobs/716057-program-delivery-specialist
+- (Tuesday's fiscal theme. All three verified directly on employer ATS/site today: Brown via Workday CXS canApply:true posted today; URI Apply button live, open until filled; CCRI JSON-LD posted 10/8, closes 10/22. Gmail reply-check: no new replies.)
