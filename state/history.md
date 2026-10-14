@@ -273,3 +273,8 @@ repeats a job. Newest at the bottom.
 - University of Rhode Island - Coordinator, College of Business (SF02218) - https://jobs.uri.edu/postings/17169
 - Community College of Rhode Island - Program Delivery Specialist, Workforce Partnerships - https://jobs.ccri.edu/jobs/716057-program-delivery-specialist
 - (Tuesday's fiscal theme. All three verified directly on employer ATS/site today: Brown via Workday CXS canApply:true posted today; URI Apply button live, open until filled; CCRI JSON-LD posted 10/8, closes 10/22. Gmail reply-check: no new replies.)
+
+## 2026-10-14 (Wed)
+- The Norman Bird Sanctuary Trust - Director of Finance and Operations - https://recruiting.paylocity.com/Recruiting/Jobs/Details/4326506
+- Brown University - Building & Operations Manager (REQ211757) - https://brown.wd5.myworkdayjobs.com/staff-careers-brown/job/Macmillan-Hall/Building---Operations-Manager_REQ211757
+- (Only 2 sent, no padding. Norman Bird verified on employer's Paylocity page (Apply live, rolling review, posted date not shown, stretch-up role); Brown verified via Workday CXS canApply:true, posted today, flagged as lab-leaning stretch. Dropped: St. Michael's Country Day Business Manager (not on school's employment page), Providence Country Day Dir. Finance & Ops (unverifiable, aisne 404), JCDSRI Business Office Associate (previously unverifiable), City Year Ops Coordinator (filled). Gmail reply-check: no new replies from Lida. Resend 200, id 01a13a57-ef24-7bd1-b9fb-b8d8c2ae0212.)
