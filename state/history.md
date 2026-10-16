@@ -283,3 +283,8 @@ repeats a job. Newest at the bottom.
 - Brown University - Partner Engagement Manager (REQ211801) - https://brown.wd5.myworkdayjobs.com/staff-careers-brown/job/Hemisphere-Building/Partner-Engagement-Manager_REQ211801
 - Brown University - Events Coordinator, Saxena Center (REQ211425, part-time 20 hrs) - https://brown.wd5.myworkdayjobs.com/staff-careers-brown/job/111-Thayer-Street/Events-Coordinator--Saxena-Center_REQ211425
 - (Only 2 sent, no padding. Both verified via Brown Workday CXS canApply:true (posted 10/14 and 9/24). Dropped: remote Raiser's Edge DB roles (Sun Health AZ, Bridging, World Villages - aggregator only/unverifiable, Paylocity Database Manager 4281737 inactive), JWU/URI/CCRI/RISD (no new fits; RISD Director Prospect Intelligence too senior), Brown Leadership Giving Officer (senior fundraising). Gmail reply-check: no new replies. Resend 200, id 01a13f7f-01a0-7f1f-ac5f-2b3ceeffa8e4.)
+
+## 2026-10-16 (Fri)
+- Brown University - Academic Department Manager (REQ211830, EEPS) - https://brown.wd5.myworkdayjobs.com/staff-careers-brown/job/Geo-Chem-Building/Academic-Department-Manager_REQ211830
+- Community College of Rhode Island - Assistant Administrative Officer (One-Stop/Dean of Students, Warwick) - https://jobs.ccri.edu/jobs/714909-assistant-administrative-officer
+- (Only 2 sent, no padding. Brown verified via Workday CXS canApply:true, posted 10/16; CCRI JSON-LD posted 10/8, closes 10/22. Dropped: URI Asst Director Finance & Ops SF02236 ($110-120k, too senior), Food Bank Finance Coordinator (already sent). Gmail reply-check: no new replies.)
