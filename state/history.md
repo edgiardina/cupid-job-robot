@@ -288,3 +288,6 @@ repeats a job. Newest at the bottom.
 - Brown University - Academic Department Manager (REQ211830, EEPS) - https://brown.wd5.myworkdayjobs.com/staff-careers-brown/job/Geo-Chem-Building/Academic-Department-Manager_REQ211830
 - Community College of Rhode Island - Assistant Administrative Officer (One-Stop/Dean of Students, Warwick) - https://jobs.ccri.edu/jobs/714909-assistant-administrative-officer
 - (Only 2 sent, no padding. Brown verified via Workday CXS canApply:true, posted 10/16; CCRI JSON-LD posted 10/8, closes 10/22. Dropped: URI Asst Director Finance & Ops SF02236 ($110-120k, too senior), Food Bank Finance Coordinator (already sent). Gmail reply-check: no new replies.)
+
+## 2026-10-19 (Mon)
+- (No jobs sent - robot struck out note. Brown Workday CXS fully swept (all already sent), URI new postings (Asst Director Finance & Ops too senior $110-120k; Specialist I Grants & Contracts SF02237 needs 2 yrs federal grants + bachelor's), CCRI Executive Operations Manager and Admin Assistant III (validThrough passed), RISD Conferences and Events Coordinator R-01965 (live but needs 3 yrs event planning + evenings/weekends), Paylocity 4234244 Foundation for Change (inactive), Sojourner House Office Coordinator (not on careers page), La Salle employment page 404. Gmail reply-check: no new replies from Lida. Resend 200, id 01a1541c-d416-7906-8fd1-dba9a83ec456.)
