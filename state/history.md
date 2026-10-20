@@ -291,3 +291,7 @@ repeats a job. Newest at the bottom.
 
 ## 2026-10-19 (Mon)
 - (No jobs sent - robot struck out note. Brown Workday CXS fully swept (all already sent), URI new postings (Asst Director Finance & Ops too senior $110-120k; Specialist I Grants & Contracts SF02237 needs 2 yrs federal grants + bachelor's), CCRI Executive Operations Manager and Admin Assistant III (validThrough passed), RISD Conferences and Events Coordinator R-01965 (live but needs 3 yrs event planning + evenings/weekends), Paylocity 4234244 Foundation for Change (inactive), Sojourner House Office Coordinator (not on careers page), La Salle employment page 404. Gmail reply-check: no new replies from Lida. Resend 200, id 01a1541c-d416-7906-8fd1-dba9a83ec456.)
+## 2026-10-20 (Tue)
+- Brown University - Human Resources Specialist (School of Engineering, REQ211852) - https://brown.wd5.myworkdayjobs.com/staff-careers-brown/job/Barus--Holley/Human-Resources-Specialist_REQ211852
+- Rhode Island School of Design (RISD) - Administrative Assistant to the Museum Director (R-01986) - https://risd.wd5.myworkdayjobs.com/RISD/job/Providence/Administrative-Assistant-to-the-Museum-Director_R-01986-1
+- (Only 2 sent, no padding. Both verified via employer Workday CXS, canApply:true, posted 10/20 and 10/19. Not sent: Brown Manager Community-Engaged Learning (student advising/DEI program role, poor fit), Brown Director of Creative & Artistic Admin (too senior), URI Asst Director Finance & Ops (too senior), RIC Assoc Dir HR Talent Mgmt (too senior). Gmail reply-check: no new replies.)
