@@ -295,3 +295,7 @@ repeats a job. Newest at the bottom.
 - Brown University - Human Resources Specialist (School of Engineering, REQ211852) - https://brown.wd5.myworkdayjobs.com/staff-careers-brown/job/Barus--Holley/Human-Resources-Specialist_REQ211852
 - Rhode Island School of Design (RISD) - Administrative Assistant to the Museum Director (R-01986) - https://risd.wd5.myworkdayjobs.com/RISD/job/Providence/Administrative-Assistant-to-the-Museum-Director_R-01986-1
 - (Only 2 sent, no padding. Both verified via employer Workday CXS, canApply:true, posted 10/20 and 10/19. Not sent: Brown Manager Community-Engaged Learning (student advising/DEI program role, poor fit), Brown Director of Creative & Artistic Admin (too senior), URI Asst Director Finance & Ops (too senior), RIC Assoc Dir HR Talent Mgmt (too senior). Gmail reply-check: no new replies.)
+
+## 2026-10-21 (Wed)
+- University of Rhode Island - Senior Higher Education Payroll Office Preaudit Clerk (CS02293) - https://jobs.uri.edu/postings/17219
+- (Only 1 sent, no padding. Verified on URI applicant portal: Apply live, posted 10/19, closes 10/28; Kingston onsite. Dropped: CCRI TRIO Assoc Director (master's + advising), Brown sweep (nothing new fitting), RISD (nothing new), Brown Asst Dir Systems & Data Reporting (data analytics), RI League of Cities/Brown RISD Hillel (unverifiable, 403/stale). Gmail reply-check: no new replies. Resend 200, id 01a15e60-4977-747f-aab5-c8cd32420337.)
