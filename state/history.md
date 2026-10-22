@@ -299,3 +299,9 @@ repeats a job. Newest at the bottom.
 ## 2026-10-21 (Wed)
 - University of Rhode Island - Senior Higher Education Payroll Office Preaudit Clerk (CS02293) - https://jobs.uri.edu/postings/17219
 - (Only 1 sent, no padding. Verified on URI applicant portal: Apply live, posted 10/19, closes 10/28; Kingston onsite. Dropped: CCRI TRIO Assoc Director (master's + advising), Brown sweep (nothing new fitting), RISD (nothing new), Brown Asst Dir Systems & Data Reporting (data analytics), RI League of Cities/Brown RISD Hillel (unverifiable, 403/stale). Gmail reply-check: no new replies. Resend 200, id 01a15e60-4977-747f-aab5-c8cd32420337.)
+
+## 2026-10-22 (Thu)
+- Brown University - Visiting Student Program Manager (REQ211816) - https://brown.wd5.myworkdayjobs.com/staff-careers-brown/job/222-Richmond-Street/Visiting-Student-Program-Manager_REQ211816
+- Brown University - Human Resources Coordinator (REQ211905, student employment) - https://brown.wd5.myworkdayjobs.com/staff-careers-brown/job/South-Street-Landing/Human-Resources-Coordinator_REQ211905
+- University of Rhode Island - Executive Assistant I, Facilities Group (SF02243) - https://jobs.uri.edu/postings/17228
+- (Brown verified via Workday CXS canApply:true; URI portal Apply live, first consideration 11/14. Dropped: RISD Lead Retail Operations (step down). Gmail reply-check: no new replies. Resend 200, id 01a16393-c710-70c5-8575-bda63144fb32.)
