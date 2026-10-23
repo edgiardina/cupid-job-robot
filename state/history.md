@@ -305,3 +305,7 @@ repeats a job. Newest at the bottom.
 - Brown University - Human Resources Coordinator (REQ211905, student employment) - https://brown.wd5.myworkdayjobs.com/staff-careers-brown/job/South-Street-Landing/Human-Resources-Coordinator_REQ211905
 - University of Rhode Island - Executive Assistant I, Facilities Group (SF02243) - https://jobs.uri.edu/postings/17228
 - (Brown verified via Workday CXS canApply:true; URI portal Apply live, first consideration 11/14. Dropped: RISD Lead Retail Operations (step down). Gmail reply-check: no new replies. Resend 200, id 01a16393-c710-70c5-8575-bda63144fb32.)
+
+## 2026-10-23 (Fri)
+- Rhode Island School of Design (RISD) - Operations & Engagement Coordinator (Nature Lab, R-01987) - https://risd.wd5.myworkdayjobs.com/RISD/job/Providence/Operations---Engagement-Coordinator_R-01987-1
+- (Only 1 sent, no padding. Verified via RISD Workday CXS canApply:true, posted 10/22. Dropped: URI Mgr Learning & Development HR (too specialized/senior), URI Project Director Med School (too senior), RI League of Cities (unverifiable). Gmail reply-check: no new replies. Resend 200, id 01a168af-dfc3-7c79-9202-aff98fd20f05.)
