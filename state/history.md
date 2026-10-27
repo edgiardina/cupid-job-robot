@@ -312,3 +312,8 @@ repeats a job. Newest at the bottom.
 ## 2026-10-26 (Mon)
 - Brown University - Executive Assistant (REQ211894, Office of the Dean of Medicine) - https://brown.wd5.myworkdayjobs.com/staff-careers-brown/job/222-Richmond-Street/Executive-Assistant_REQ211894
 - (Only 1 sent, no padding. Verified via Brown Workday CXS canApply:true, posted today. Dropped: Brown Director of Creative and Artistic Administration (theatre, poor fit), URI Specialist I Grants & Contracts / Asst Director Finance & Ops (already dropped), RISD/CCRI/RIC/Bryant sweeps found nothing new and fitting. Gmail reply-check: no new replies from Lida. Resend 200, id 01a17822-d55a-74e4-96f2-04d728b90cf4.)
+
+## 2026-10-27 (Tue)
+- Brown University - Administrative Coordinator (Dept of Mathematics, REQ211966) - https://brown.wd5.myworkdayjobs.com/staff-careers-brown/job/Kassar-House/Administrative-Coordinator_REQ211966
+- Brown University - Student Affairs Coordinator (Dept of Music, REQ211943) - https://brown.wd5.myworkdayjobs.com/staff-careers-brown/job/Orwig-Music-Hall/Student-Affairs-Coordinator_REQ211943
+- (Only 2 sent, no padding. Both verified via Brown Workday CXS canApply:true, posted 10/21 and today. Not sent: Financial Operations Specialist REQ209217 and Building & Operations Manager REQ211757 (already sent), RISD/URI sweeps nothing new and fitting. Gmail reply-check: no new replies. Resend 200, id 01a17d5b-8627-71b8-a6cf-e204863f4f2c.)
