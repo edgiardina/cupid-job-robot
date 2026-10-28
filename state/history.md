@@ -317,3 +317,7 @@ repeats a job. Newest at the bottom.
 - Brown University - Administrative Coordinator (Dept of Mathematics, REQ211966) - https://brown.wd5.myworkdayjobs.com/staff-careers-brown/job/Kassar-House/Administrative-Coordinator_REQ211966
 - Brown University - Student Affairs Coordinator (Dept of Music, REQ211943) - https://brown.wd5.myworkdayjobs.com/staff-careers-brown/job/Orwig-Music-Hall/Student-Affairs-Coordinator_REQ211943
 - (Only 2 sent, no padding. Both verified via Brown Workday CXS canApply:true, posted 10/21 and today. Not sent: Financial Operations Specialist REQ209217 and Building & Operations Manager REQ211757 (already sent), RISD/URI sweeps nothing new and fitting. Gmail reply-check: no new replies. Resend 200, id 01a17d5b-8627-71b8-a6cf-e204863f4f2c.)
+
+## 2026-10-28 (Wed)
+- University of Rhode Island - Coordinator, Inner Space Center (ISC) & Ocean Exploration Cooperative Institute (posting 17240) - https://jobs.uri.edu/postings/17240
+- (Only 1 sent, no padding. Verified on URI applicant portal: Apply live, posted 10/23, first consideration 11/05, $77-82k, remote/hybrid eligible. Dropped: RISD Senior Library Assistant R-01985 (library circulation, poor fit), Brown sweep nothing new, CCRI nothing new. Gmail reply-check: no new replies. Resend 200, id 01a18270-d74b-73a6-9e6a-1f9d43d3fe94.)
