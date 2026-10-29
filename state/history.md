@@ -321,3 +321,6 @@ repeats a job. Newest at the bottom.
 ## 2026-10-28 (Wed)
 - University of Rhode Island - Coordinator, Inner Space Center (ISC) & Ocean Exploration Cooperative Institute (posting 17240) - https://jobs.uri.edu/postings/17240
 - (Only 1 sent, no padding. Verified on URI applicant portal: Apply live, posted 10/23, first consideration 11/05, $77-82k, remote/hybrid eligible. Dropped: RISD Senior Library Assistant R-01985 (library circulation, poor fit), Brown sweep nothing new, CCRI nothing new. Gmail reply-check: no new replies. Resend 200, id 01a18270-d74b-73a6-9e6a-1f9d43d3fe94.)
+## 2026-10-29 (Thu)
+- Rhode Island College - Higher Education Administrative Assistant III (CS00649, Feinstein School of Education) - https://employment.ric.edu/postings/11409
+- (Only 1 sent, no padding. Verified on employer's RIC portal: Apply live, closes 11/05, $50,915-55,777, flagged as step-down. Dropped: Brown BioMed Shared Services Manager (needs 4 yrs research admin), Brown Development Coordinator REQ211505 (same title as one already sent), RIC Assoc Dir Admissions Operations (CRM/data heavy), RIC Admin Assistant I Rec Center (step-down), remote Raiser's Edge roles (aggregator only). Gmail reply-check: no new replies. Resend 200, id 01a1879a-d98d-7d38-9276-7eb79e93edee.)
