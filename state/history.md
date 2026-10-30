@@ -324,3 +324,8 @@ repeats a job. Newest at the bottom.
 ## 2026-10-29 (Thu)
 - Rhode Island College - Higher Education Administrative Assistant III (CS00649, Feinstein School of Education) - https://employment.ric.edu/postings/11409
 - (Only 1 sent, no padding. Verified on employer's RIC portal: Apply live, closes 11/05, $50,915-55,777, flagged as step-down. Dropped: Brown BioMed Shared Services Manager (needs 4 yrs research admin), Brown Development Coordinator REQ211505 (same title as one already sent), RIC Assoc Dir Admissions Operations (CRM/data heavy), RIC Admin Assistant I Rec Center (step-down), remote Raiser's Edge roles (aggregator only). Gmail reply-check: no new replies. Resend 200, id 01a1879a-d98d-7d38-9276-7eb79e93edee.)
+
+## 2026-10-30 (Fri)
+- Brown University - Financial and Administrative Coordinator (REQ211968, Center for Global Health Equity) - https://brown.wd5.myworkdayjobs.com/staff-careers-brown/job/339-Eddy-Street/Financial-and-Administrative-Coordinator_REQ211968
+- Rhode Island School of Design (RISD) - Part-time Administrative Assistant, Finance & Administration (R-01994) - https://risd.wd5.myworkdayjobs.com/RISD/job/Providence/Part-time-Administrative-Assistant--Finance---Administration_R-01994-2
+- (Only 2 sent, no padding. Both verified via employer Workday CXS canApply:true, posted 10/30 and 10/28. Dropped: Brown Grants and Financial Specialist REQ211099 (bachelor's + research admin), BioMed Shared Services Manager (already dropped). Gmail reply-check: no new replies. Resend 200, id 01a18cc7-20de-789e-8562-613e3267b1a0.)
