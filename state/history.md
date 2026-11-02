@@ -329,3 +329,7 @@ repeats a job. Newest at the bottom.
 - Brown University - Financial and Administrative Coordinator (REQ211968, Center for Global Health Equity) - https://brown.wd5.myworkdayjobs.com/staff-careers-brown/job/339-Eddy-Street/Financial-and-Administrative-Coordinator_REQ211968
 - Rhode Island School of Design (RISD) - Part-time Administrative Assistant, Finance & Administration (R-01994) - https://risd.wd5.myworkdayjobs.com/RISD/job/Providence/Part-time-Administrative-Assistant--Finance---Administration_R-01994-2
 - (Only 2 sent, no padding. Both verified via employer Workday CXS canApply:true, posted 10/30 and 10/28. Dropped: Brown Grants and Financial Specialist REQ211099 (bachelor's + research admin), BioMed Shared Services Manager (already dropped). Gmail reply-check: no new replies. Resend 200, id 01a18cc7-20de-789e-8562-613e3267b1a0.)
+
+## 2026-11-02 (Mon)
+- Brown University - Program Manager of Peer Tutoring (REQ211979, Sheridan Center) - https://brown.wd5.myworkdayjobs.com/staff-careers-brown/job/Sciences-Library/Program-Manager-of-Peer-Tutoring_REQ211979
+- (Only 1 sent, no padding. Verified via Brown Workday CXS canApply:true, posted today; flagged as stretch. Dropped: Brown Project Coordinator REQ211904 (NIH research), URI Specialist Summer Sessions SF02246 (marketing/social media quals), RIC HEAA I and Assoc Dir Admissions Ops (too junior/too specialized). Gmail reply-check: no new replies. Resend 200, id 01a19c31-f251-79ee-ad70-a40a1b998fca)
