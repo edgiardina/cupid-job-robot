@@ -333,3 +333,7 @@ repeats a job. Newest at the bottom.
 ## 2026-11-02 (Mon)
 - Brown University - Program Manager of Peer Tutoring (REQ211979, Sheridan Center) - https://brown.wd5.myworkdayjobs.com/staff-careers-brown/job/Sciences-Library/Program-Manager-of-Peer-Tutoring_REQ211979
 - (Only 1 sent, no padding. Verified via Brown Workday CXS canApply:true, posted today; flagged as stretch. Dropped: Brown Project Coordinator REQ211904 (NIH research), URI Specialist Summer Sessions SF02246 (marketing/social media quals), RIC HEAA I and Assoc Dir Admissions Ops (too junior/too specialized). Gmail reply-check: no new replies. Resend 200, id 01a19c31-f251-79ee-ad70-a40a1b998fca)
+
+## 2026-11-03 (Tue)
+- Lincoln School - Human Resources Manager - https://www.lincolnschool.org/about/careers
+- (Only 1 sent, no padding. Verified live on Lincoln's own careers page; bachelor's required, flagged to Lida. Brown/RISD/RIC/RI Foundation finance picks already sent. Gmail reply-check: no new replies. Resend 200, id 01a1a15b-dad9-76b7-b6ca-ac02ccafa09c.)
