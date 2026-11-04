@@ -1,0 +1,24 @@
+{
+  "subject": "Cupid's test picks: 1 pretend job, 100% real love 💘",
+  "greeting": "Good morning, Lida! This is a <b>sample</b> file that shows the shape <code>send.py</code> expects.",
+  "jobs": [
+    {
+      "title": "Office Manager",
+      "org": "Example Org (not real)",
+      "location": "Providence, RI",
+      "pay": "",
+      "reasoning": "You run payroll, benefits <i>and</i> a capital renovation. This is a sample, so it's a pretend job with \"quotes\" & {braces} to prove escaping works.",
+      "starter": "Open with your two renovation projects.",
+      "url": "https://example.com/jobs/123?a=1&b=2",
+      "cover_letter": {
+        "subject": "Application: Office Manager",
+        "body": "Dear Hiring Team,\n\nI am writing to apply for the Office Manager role.\n\nLida Brooke\n(626) 375-1960\nlidabrooke@gmail.com"
+      },
+      "intro_email": {
+        "subject": "Quick intro: Office Manager role",
+        "body": "Hi there,\n\nI saw the Office Manager opening & wanted to say hello.\n\nLida"
+      }
+    }
+  ],
+  "signoff": "Go get 'em."
+}

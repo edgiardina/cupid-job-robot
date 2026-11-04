@@ -24,3 +24,19 @@ Hate a suggestion? Add it to `state/exclude.json`:
 ```
 
 …or just tell Ed and he'll add it.
+
+## Sending (`send.py`)
+
+The routine does not build the email in Bash. It writes the day's picks to
+`/tmp/cupid/jobs.json` with its Write tool, then runs one short command:
+
+```sh
+CUPID_RESEND_KEY=re_xxx python3 /tmp/cupid/send.py /tmp/cupid/jobs.json
+```
+
+`send.py` builds the HTML, URL-encodes the cover-letter and intro-email `mailto:` links,
+and posts to Resend. The recipients are fixed in the script. See `example.jobs.json` for
+the input shape. Use `--dry-run` to build without sending, and `--test` to send to Ed only.
+
+Why: long heredocs and inline `python3 -c` scripts trip the Claude Code bash safety
+parser. The parser then stops the unattended run and asks Ed for permission on his phone.
