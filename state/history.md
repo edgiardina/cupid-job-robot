@@ -337,3 +337,8 @@ repeats a job. Newest at the bottom.
 ## 2026-11-03 (Tue)
 - Lincoln School - Human Resources Manager - https://www.lincolnschool.org/about/careers
 - (Only 1 sent, no padding. Verified live on Lincoln's own careers page; bachelor's required, flagged to Lida. Brown/RISD/RIC/RI Foundation finance picks already sent. Gmail reply-check: no new replies. Resend 200, id 01a1a15b-dad9-76b7-b6ca-ac02ccafa09c.)
+
+## 2026-11-04 (Wed)
+- Brown University - Grant and Financial Specialist (REQ212071) - https://brown.wd5.myworkdayjobs.com/staff-careers-brown/job/Macmillan-Hall/Grant-and-Financial-Specialist_REQ212071
+- Brown University - Athletics Business Analyst (REQ211982) - https://brown.wd5.myworkdayjobs.com/staff-careers-brown/job/Philip-D-Andrews-Memorial-Building/Athletics-Business-Analyst_REQ211982
+- (Only 2 sent, no padding; both stretch roles. Verified via Brown Workday CXS canApply:true, posted today. Dropped: Brown Comms & Engagement Coord, Project Coordinator (already dropped), BioMed Shared Services Mgr (already dropped), RISD/URI sweeps nothing new. Gmail reply-check: no new replies. Resend 200, id 01a1a682-13b7-7e33-ade9-762ced0b791a.)
