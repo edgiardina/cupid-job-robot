@@ -342,3 +342,9 @@ repeats a job. Newest at the bottom.
 - Brown University - Grant and Financial Specialist (REQ212071) - https://brown.wd5.myworkdayjobs.com/staff-careers-brown/job/Macmillan-Hall/Grant-and-Financial-Specialist_REQ212071
 - Brown University - Athletics Business Analyst (REQ211982) - https://brown.wd5.myworkdayjobs.com/staff-careers-brown/job/Philip-D-Andrews-Memorial-Building/Athletics-Business-Analyst_REQ211982
 - (Only 2 sent, no padding; both stretch roles. Verified via Brown Workday CXS canApply:true, posted today. Dropped: Brown Comms & Engagement Coord, Project Coordinator (already dropped), BioMed Shared Services Mgr (already dropped), RISD/URI sweeps nothing new. Gmail reply-check: no new replies. Resend 200, id 01a1a682-13b7-7e33-ade9-762ced0b791a.)
+
+## 2026-11-05 (Thu)
+- University of Rhode Island - Assistant Director, Finance and Operations (SF02236, University Libraries) - https://jobs.uri.edu/postings/17216
+- Brown University - Manager, BioMed Shared Services (REQ211994) - https://brown.wd5.myworkdayjobs.com/staff-careers-brown/job/300-Richmond-Street/Manager--BioMed-Shared-Services_REQ211994
+- Rhode Island College - Scheduling/Operations Specialist (NC00897) - https://employment.ric.edu/postings/11453
+- (All three loaded live on the employer's own site today: URI and RIC posting pages with Apply link, Brown via Workday CXS canApply:true, posted 10/29. URI is a stretch (5+ yrs financial mgmt, $110-120k), flagged as a reach in the email; Brown BioMed was dropped 11/4 but re-considered as a real grants/budget fit and flagged that research-admin experience is preferred. No fresh verifiable advancement/Raiser's Edge roles found this Thursday (Brown dev roles all already sent; web search results stale). Gmail reply-check ran fine: no new replies. Resend 200, id 01a1abd4-c329-772d-833c-263f28095633.)
