@@ -348,3 +348,7 @@ repeats a job. Newest at the bottom.
 - Brown University - Manager, BioMed Shared Services (REQ211994) - https://brown.wd5.myworkdayjobs.com/staff-careers-brown/job/300-Richmond-Street/Manager--BioMed-Shared-Services_REQ211994
 - Rhode Island College - Scheduling/Operations Specialist (NC00897) - https://employment.ric.edu/postings/11453
 - (All three loaded live on the employer's own site today: URI and RIC posting pages with Apply link, Brown via Workday CXS canApply:true, posted 10/29. URI is a stretch (5+ yrs financial mgmt, $110-120k), flagged as a reach in the email; Brown BioMed was dropped 11/4 but re-considered as a real grants/budget fit and flagged that research-admin experience is preferred. No fresh verifiable advancement/Raiser's Edge roles found this Thursday (Brown dev roles all already sent; web search results stale). Gmail reply-check ran fine: no new replies. Resend 200, id 01a1abd4-c329-772d-833c-263f28095633.)
+
+## 2026-11-06 (Fri)
+- University of Rhode Island - Manager, Learning & Development - Human Resources (SF02175) - https://jobs.uri.edu/postings/17233
+- (Only 1 sent: verified live on jobs.uri.edu itself, opened 10/22/2026, open until filled. Dropped: Last Prisoner Project EA (own site says not hiring), Brown Swearer Center roles (poor fit), Brown Creative and Artistic Administration Director (poor fit), RIC Assoc Dir Admissions Ops (too senior), Providence city/CCRI (no fit). Gmail reply-check ran fine: no new replies. Resend 200, id 01a1b103-96eb-7249-8a0f-4bae8c46a6c1.)
