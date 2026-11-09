@@ -352,3 +352,7 @@ repeats a job. Newest at the bottom.
 ## 2026-11-06 (Fri)
 - University of Rhode Island - Manager, Learning & Development - Human Resources (SF02175) - https://jobs.uri.edu/postings/17233
 - (Only 1 sent: verified live on jobs.uri.edu itself, opened 10/22/2026, open until filled. Dropped: Last Prisoner Project EA (own site says not hiring), Brown Swearer Center roles (poor fit), Brown Creative and Artistic Administration Director (poor fit), RIC Assoc Dir Admissions Ops (too senior), Providence city/CCRI (no fit). Gmail reply-check ran fine: no new replies. Resend 200, id 01a1b103-96eb-7249-8a0f-4bae8c46a6c1.)
+
+## 2026-11-09 (Mon)
+- College Visions - Director of Finance and Operations - https://www.collegevisions.org/careers
+- (Only 1 sent: verified on college visions own site, deadline 11/13/2026. Other leads dropped: Rainforest Trust EA unverifiable, URI Summer Sessions Specialist and RIC Assoc Dir Admissions Ops poor fits, RICARES requires bilingual. Gmail reply-check skipped. Resend 200 id 01a1c077-54ed-7749-b2fb-8781a9d147d6.)
