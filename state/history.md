@@ -356,3 +356,7 @@ repeats a job. Newest at the bottom.
 ## 2026-11-09 (Mon)
 - College Visions - Director of Finance and Operations - https://www.collegevisions.org/careers
 - (Only 1 sent: verified on college visions own site, deadline 11/13/2026. Other leads dropped: Rainforest Trust EA unverifiable, URI Summer Sessions Specialist and RIC Assoc Dir Admissions Ops poor fits, RICARES requires bilingual. Gmail reply-check skipped. Resend 200 id 01a1c077-54ed-7749-b2fb-8781a9d147d6.)
+
+## 2026-11-10 (Tue)
+- Brown University - Interim Program Manager, Executive Education (REQ212061) - https://brown.wd5.myworkdayjobs.com/staff-careers-brown/job/225-Dyer-Street/Interim-Program-Manager--Executive-Education_REQ212061
+- (Only 1 sent, no padding. Verified via Brown Workday CXS canApply:true, posted today; part-time fixed-term. URI/RIC/RISD sweeps nothing new and fitting. Gmail reply-check: no new replies. Resend 200 id 01a1c59c-e9c1-7a35-b877-8306c48ae737.)
