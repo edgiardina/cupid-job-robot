@@ -45,11 +45,14 @@ import urllib.parse
 import urllib.request
 
 # Production recipients. Fixed here on purpose: nothing in jobs.json can change them.
+# The owner's own address is NOT stored in this file: it comes from the CUPID_CC
+# environment variable, which Ed sets on the cloud environment himself. It is used
+# as the CC on real sends and as the only recipient of --test sends. If it is
+# missing, the script refuses to send rather than silently dropping the CC.
 FROM = "Ed \U0001F916❤️ <cupid@pinventory.app>"
 TO = ["lidabrooke@gmail.com"]
-CC = ["ed@edgiardina.com"]
 REPLY_TO = "cupidrobot9@gmail.com"
-TEST_TO = ["ed@edgiardina.com"]
+OWNER_ENV = "CUPID_CC"
 
 SIGNATURE = "— Ed \U0001F916❤️"
 DEFAULT_FEEDBACK = (
@@ -59,8 +62,7 @@ DEFAULT_FEEDBACK = (
 MAX_DRAFT_BODY = 1800
 OUT_DIR = "/tmp/cupid" if os.name != "nt" else os.path.join(
     os.environ.get("TEMP", "."), "cupid")
-UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-      "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
+UA = "cupid-sender/1.0"
 
 FONT = "font-family:Georgia,'Times New Roman',serif;"
 LINK = "color:#c2185b;font-weight:bold;text-decoration:none;"
@@ -192,11 +194,16 @@ def main():
         print("ERROR no CUPID_RESEND_KEY in the environment")
         return 2
 
+    owner = os.environ.get(OWNER_ENV, "").strip()
+    if not owner or "@" not in owner:
+        print(f"ERROR no {OWNER_ENV} address in the environment (needed for the CC)")
+        return 2
+
     payload = {"from": FROM, "reply_to": REPLY_TO, "html": body}
     if args.test:
-        payload.update(to=TEST_TO, subject="[TEST] " + subject)
+        payload.update(to=[owner], subject="[TEST] " + subject)
     else:
-        payload.update(to=TO, cc=CC, subject=subject)
+        payload.update(to=TO, cc=[owner], subject=subject)
     return send(payload, key)
 
 
