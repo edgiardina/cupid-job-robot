@@ -28,6 +28,7 @@ jobs:
           python-version: "3.12"
       - name: Watch Eventbrite
         env:
+          HA_WEBHOOK_URL: ${{ secrets.LADD_HA_WEBHOOK_URL }}
           NTFY_TOPIC: ${{ secrets.LADD_NTFY_TOPIC }}
           ONCE: ${{ github.event_name == 'workflow_dispatch' && inputs.once && '1' || '0' }}
           START_ET: "07:00"

@@ -3,8 +3,10 @@
 
 It does NOT register for you. It tells your phone, fast, so a human can grab them.
 
-Env:
-  NTFY_TOPIC   required. ntfy.sh topic to push to (pick something unguessable).
+Env (set at least one):
+  HA_WEBHOOK_URL  Home Assistant webhook URL. Gets a JSON POST:
+                  {"title","message","url","events":[{name,when,url}...]}
+  NTFY_TOPIC      ntfy.sh topic to push to.
   START_ET     poll window start, HH:MM America/New_York (default 07:00)
   END_ET       poll window end   (default 08:45)
   INTERVAL     seconds between checks (default 20)
@@ -57,20 +59,29 @@ def summarize(e):
     }
 
 
-def notify(topic, title, body, url, priority="urgent"):
-    req = urllib.request.Request(
-        f"https://ntfy.sh/{topic}",
-        data=body.encode(),
-        headers={"Title": title, "Priority": priority, "Tags": "telescope", "Click": url},
-    )
-    urllib.request.urlopen(req, timeout=20).read()
+def notify(title, body, url, events=(), priority="urgent"):
+    hook = os.environ.get("HA_WEBHOOK_URL", "").strip()
+    topic = os.environ.get("NTFY_TOPIC", "").strip()
+    if hook:
+        payload = {"title": title, "message": body, "url": url,
+                   "events": [{k: e[k] for k in ("name", "when", "url")} for e in events]}
+        req = urllib.request.Request(hook, data=json.dumps(payload).encode(),
+                                     headers={"Content-Type": "application/json"})
+        urllib.request.urlopen(req, timeout=20).read()
+    if topic:
+        req = urllib.request.Request(
+            f"https://ntfy.sh/{topic}",
+            data=body.encode(),
+            headers={"Title": title, "Priority": priority, "Tags": "telescope", "Click": url},
+        )
+        urllib.request.urlopen(req, timeout=20).read()
 
 
 def main():
     once = os.environ.get("ONCE") == "1"
-    topic = os.environ.get("NTFY_TOPIC", "").strip()
+    topic = bool(os.environ.get("NTFY_TOPIC", "").strip() or os.environ.get("HA_WEBHOOK_URL", "").strip())
     if not topic and not once:
-        sys.exit("NTFY_TOPIC is not set")
+        sys.exit("set HA_WEBHOOK_URL or NTFY_TOPIC")
     start, end = hm(os.environ.get("START_ET", "07:00")), hm(os.environ.get("END_ET", "08:45"))
     interval = int(os.environ.get("INTERVAL", "20"))
 
@@ -92,7 +103,7 @@ def main():
             errors += 1
             print(f"{now:%H:%M:%S} fetch failed ({errors}): {ex}")
             if errors == 10 and topic:
-                notify(topic, "Ladd watcher is failing", f"10 failed checks in a row: {ex}\nCheck manually: {ORG_URL}", ORG_URL, "high")
+                notify("Ladd watcher is failing", f"10 failed checks in a row: {ex}\nCheck manually: {ORG_URL}", ORG_URL, priority="high")
             if once:
                 sys.exit(1)
             time.sleep(interval)
@@ -104,9 +115,7 @@ def main():
         new = [e for e in open_now if e["id"] not in alerted]
         if new and topic:
             lines = [f'{e["name"]} — {e["when"]}' for e in new]
-            notify(topic, "LADD TICKETS ARE OPEN", "\n".join(lines) + "\nTap to register.", new[0]["url"])
-            for e in new[1:]:  # each extra show gets its own tap-through
-                notify(topic, f'Ladd: {e["when"]}', e["name"], e["url"])
+            notify("LADD TICKETS ARE OPEN", "\n".join(lines) + "\nTap to register.", new[0]["url"], new)
             alerted.update(e["id"] for e in new)
             print("ALERT SENT:", ", ".join(lines))
         if once:
