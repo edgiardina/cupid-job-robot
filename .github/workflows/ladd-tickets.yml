@@ -1,0 +1,36 @@
+name: Ladd ticket watcher
+
+on:
+  schedule:
+    # Tuesdays. Two entries so one lands before 7:00 ET in both EST and EDT.
+    # GitHub cron can fire late, so it starts early and the script waits for the window.
+    - cron: "15 10 * * 2"
+    - cron: "15 11 * * 2"
+  workflow_dispatch:
+    inputs:
+      once:
+        description: "Just check once and print what it sees"
+        type: boolean
+        default: true
+
+concurrency:
+  group: ladd-watcher   # second scheduled run queues behind the first, then exits (window over)
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Watch Eventbrite
+        env:
+          NTFY_TOPIC: ${{ secrets.LADD_NTFY_TOPIC }}
+          ONCE: ${{ github.event_name == 'workflow_dispatch' && inputs.once && '1' || '0' }}
+          START_ET: "07:00"
+          END_ET: "08:45"
+          INTERVAL: "20"
+        run: python ladd/watch.py

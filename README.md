@@ -47,3 +47,26 @@ browser-style User-Agent. For the same reason the User-Agent is a plain `cupid-s
 
 Why: long heredocs and inline `python3 -c` scripts trip the Claude Code bash safety
 parser. The parser then stops the unattended run and asks Ed for permission on his phone.
+
+---
+
+## Ladd Observatory ticket watcher (`ladd/`, `.github/workflows/ladd-tickets.yml`)
+
+Separate from the job robot. Every Tuesday, a GitHub Action polls the
+[Ladd Observatory Eventbrite page](https://www.eventbrite.com/o/34803107253) every 20s from
+7:00 to 8:45am ET. The moment a show has tickets, it sends an urgent push to your phone via
+[ntfy](https://ntfy.sh). Tap the alert → you land on the event → register.
+
+It does not register for you. A human still has to click through checkout.
+
+### Setup (once)
+1. Install the **ntfy** app (iOS/Android). Subscribe to a topic with an unguessable name,
+   e.g. `ladd-` + some random letters. Anyone who knows the name can read/send to it.
+   Have everyone who wants alerts subscribe to the same topic.
+2. In this repo: Settings → Secrets and variables → Actions → New secret
+   `LADD_NTFY_TOPIC` = that topic name.
+3. Actions tab → "Ladd ticket watcher" → Run workflow (leave "once" checked) to confirm it can
+   read the page.
+
+To change the window or poll rate, edit `START_ET` / `END_ET` / `INTERVAL` in the workflow.
+Run locally: `NTFY_TOPIC=yourtopic python3 ladd/watch.py`.
