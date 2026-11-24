@@ -1,0 +1,100 @@
+# Ladd Observatory ticket watcher — Home Assistant package.
+#
+# Install:
+#   1. configuration.yaml needs:   homeassistant:
+#                                    packages: !include_dir_named packages
+#   2. Copy this file to  config/packages/ladd_tickets.yaml
+#   3. Replace notify.mobile_app_YOUR_PHONE / OTHER_PHONE below with yours
+#      (Developer tools → Actions → search "notify.mobile_app_").
+#   4. Developer tools → YAML → check config, then restart HA.
+#
+# What it does: Tuesdays 7:00–8:45am, refreshes the Eventbrite organizer page every 20s.
+# The moment any show has tickets, it pushes to your phones. Tap → organizer page → register.
+# It does not register for you.
+
+rest:
+  - resource: https://www.eventbrite.com/o/34803107253
+    method: GET
+    headers:
+      User-Agent: "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+      Cache-Control: no-cache
+    timeout: 20
+    scan_interval: 21600   # background refresh every 6h; the automation below does the fast polling
+    sensor:
+      - name: Ladd open shows
+        unique_id: ladd_open_shows
+        icon: mdi:telescope
+        value_template: >-
+          {{ value | regex_findall('"has_available_tickets":true') | count }}
+      - name: Ladd listed shows
+        unique_id: ladd_listed_shows
+        icon: mdi:calendar-star
+        value_template: >-
+          {{ value | regex_findall('"eventbrite_event_id":"') | count }}
+
+automation:
+  - id: ladd_tickets_poll
+    alias: Ladd tickets — poll Tuesday mornings
+    mode: single
+    triggers:
+      - trigger: time_pattern
+        seconds: "/20"
+    conditions:
+      - condition: time
+        weekday: tue
+        after: "07:00:00"
+        before: "08:45:00"
+    actions:
+      - action: homeassistant.update_entity
+        target:
+          entity_id: sensor.ladd_open_shows
+
+  - id: ladd_tickets_alert
+    alias: Ladd tickets — alert when open
+    mode: single
+    triggers:
+      - trigger: numeric_state
+        entity_id: sensor.ladd_open_shows
+        above: 0
+    actions:
+      - action: notify.mobile_app_YOUR_PHONE
+        data: &ladd_msg
+          title: "LADD TICKETS ARE OPEN"
+          message: "{{ states('sensor.ladd_open_shows') }} show(s) have tickets. Tap to register."
+          data:
+            url: https://www.eventbrite.com/o/34803107253           # iOS tap target
+            clickAction: https://www.eventbrite.com/o/34803107253   # Android tap target
+            push:
+              interruption-level: time-sensitive   # iOS: breaks through Focus
+            priority: high                         # Android
+            ttl: 0
+      - action: notify.mobile_app_OTHER_PHONE
+        data: *ladd_msg
+      # Optional, louder:
+      # - action: tts.speak
+      #   target: { entity_id: tts.home_assistant_cloud }
+      #   data:
+      #     media_player_entity_id: media_player.kitchen
+      #     message: "Ladd Observatory tickets are open"
+
+  - id: ladd_tickets_broken
+    alias: Ladd tickets — warn if the check is broken
+    mode: single
+    triggers:
+      - trigger: state
+        entity_id: sensor.ladd_open_shows
+        to: unavailable
+        for: "00:03:00"
+    conditions:
+      - condition: time
+        weekday: tue
+        after: "07:00:00"
+        before: "08:45:00"
+    actions:
+      - action: notify.mobile_app_YOUR_PHONE
+        data:
+          title: "Ladd watcher can't read Eventbrite"
+          message: "Check manually."
+          data:
+            url: https://www.eventbrite.com/o/34803107253
+            clickAction: https://www.eventbrite.com/o/34803107253

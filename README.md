@@ -50,26 +50,9 @@ parser. The parser then stops the unattended run and asks Ed for permission on h
 
 ---
 
-## Ladd Observatory ticket watcher (`ladd/`, `.github/workflows/ladd-tickets.yml`)
+## Ladd Observatory ticket watcher (`ladd/ladd_tickets.yaml`)
 
-Separate from the job robot. Every Tuesday, a GitHub Action polls the
-[Ladd Observatory Eventbrite page](https://www.eventbrite.com/o/34803107253) every 20s from
-7:00 to 8:45am ET. The moment a show has tickets, it fires a Home Assistant webhook, and HA
-pushes to your phones through the companion app. Tap the alert → event page → register.
-
-It does not register for you. A human still has to click through checkout.
-
-### Setup (once)
-1. In Home Assistant, create the automation in `ladd/home-assistant-automation.yaml`
-   (set your own random `webhook_id` and your `notify.mobile_app_*` targets).
-2. Your webhook URL must be reachable from the internet:
-   - Nabu Casa: Settings → Home Assistant Cloud → Webhooks → copy the `hooks.nabu.casa/...` URL.
-   - Otherwise: `https://<your-external-ha-host>/api/webhook/<webhook_id>`.
-3. In this repo: Settings → Secrets and variables → Actions → New secret
-   `LADD_HA_WEBHOOK_URL` = that URL. (Optional backup: `LADD_NTFY_TOPIC` also works.)
-4. Actions tab → "Ladd ticket watcher" → Run workflow (leave "once" checked) to confirm it can
-   read the page. To test the HA side, `curl -X POST -H 'Content-Type: application/json'
-   -d '{"title":"test","message":"test","url":"https://example.com"}' <webhook url>`.
-
-To change the window or poll rate, edit `START_ET` / `END_ET` / `INTERVAL` in the workflow.
-Run locally: `HA_WEBHOOK_URL=... python3 ladd/watch.py`.
+Separate from the job robot. A Home Assistant package: Tuesdays 7:00–8:45am ET it checks the
+[Ladd Observatory Eventbrite page](https://www.eventbrite.com/o/34803107253) every 20s and
+pushes to your phones (HA companion app) the moment any show has tickets. It does not
+register for you. Install steps are at the top of the file.
