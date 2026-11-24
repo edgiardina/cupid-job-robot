@@ -50,9 +50,19 @@ parser. The parser then stops the unattended run and asks Ed for permission on h
 
 ---
 
-## Ladd Observatory ticket watcher (`ladd/ladd_tickets.yaml`)
+## Ladd Observatory ticket watcher
 
-Separate from the job robot. A Home Assistant package: Tuesdays 7:00–8:45am ET it checks the
-[Ladd Observatory Eventbrite page](https://www.eventbrite.com/o/34803107253) every 20s and
-pushes to your phones (HA companion app) the moment any show has tickets. It does not
-register for you. Install steps are at the top of the file.
+Separate from the job robot. Lives in Home Assistant on the NAS (installed through the HA API,
+no YAML files on the NAS):
+
+- **Scrape integration** → `sensor.ladd_open_shows`: count of Ladd shows on the
+  [Eventbrite organizer page](https://www.eventbrite.com/o/34803107253) with tickets available.
+  Refreshes every 10 min on its own.
+- **automation.ladd_tickets_poll_tuesday_mornings**: Tuesdays 7:00–8:45 ET, refreshes it every 20s.
+- **automation.ladd_tickets_alert_when_open**: when it goes above 0, time-sensitive push to Ed's
+  and Lida's iPhones. Tap opens the organizer page.
+- **automation.ladd_tickets_warn_if_check_is_broken**: sensor unavailable 3+ min in the window →
+  push to Ed.
+
+It does not register for you. `ladd/ladd_tickets.yaml` is the same thing as a YAML package,
+kept as a reference / for rebuilding.
