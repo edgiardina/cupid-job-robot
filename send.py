@@ -3,7 +3,12 @@
 
 The routine writes the day's content to a JSON file with its Write tool, then runs:
 
-    CUPID_RESEND_KEY=re_xxx python3 send.py /tmp/cupid/jobs.json
+    python3 send.py /tmp/cupid/jobs.json
+
+In the cloud run the Resend key is a network secret on the environment: the agent
+proxy adds the Authorization header to requests for api.resend.com, so the key never
+enters the sandbox and this script sends none. Run by hand, set CUPID_RESEND_KEY
+(or RESEND_API_KEY) and the script adds the header itself.
 
 This script exists so the cloud run never has to generate a big heredoc or inline
 Python in Bash. Those commands trip Claude Code's bash safety parser, which then
@@ -135,12 +140,14 @@ def build_html(data):
 
 
 def send(payload, key):
+    headers = {"Content-Type": "application/json", "User-Agent": UA}
+    # No key in the cloud run: the proxy injects Authorization for api.resend.com.
+    if key:
+        headers["Authorization"] = f"Bearer {key}"
     req = urllib.request.Request(
         "https://api.resend.com/emails",
         data=json.dumps(payload).encode("utf-8"),
-        headers={"Authorization": f"Bearer {key}",
-                 "Content-Type": "application/json",
-                 "User-Agent": UA},
+        headers=headers,
         method="POST")
     try:
         with urllib.request.urlopen(req, timeout=30) as r:
@@ -148,6 +155,9 @@ def send(payload, key):
             return 0
     except urllib.error.HTTPError as e:
         print("RESEND_ERR", e.code, e.read().decode())
+        if e.code in (401, 403) and not key:
+            print("RESEND_ERR no key sent: check the api.resend.com network secret "
+                  "on the cloud environment")
         return 1
     except urllib.error.URLError as e:
         print("RESEND_ERR network", e.reason)
@@ -189,10 +199,8 @@ def main():
         print("DRY RUN: not sent. Subject:", subject)
         return 0
 
+    # Optional: only a hand run needs it (see the docstring).
     key = os.environ.get("CUPID_RESEND_KEY") or os.environ.get("RESEND_API_KEY")
-    if not key:
-        print("ERROR no CUPID_RESEND_KEY in the environment")
-        return 2
 
     owner = os.environ.get(OWNER_ENV, "").strip()
     if not owner or "@" not in owner:
