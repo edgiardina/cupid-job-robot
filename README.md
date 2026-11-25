@@ -31,8 +31,15 @@ The routine does not build the email in Bash. It writes the day's picks to
 `/tmp/cupid/jobs.json` with its Write tool, then runs one short command:
 
 ```sh
-CUPID_RESEND_KEY=re_xxx python3 /tmp/cupid/send.py /tmp/cupid/jobs.json
+python3 /tmp/cupid/send.py /tmp/cupid/jobs.json
 ```
+
+The Resend key is a **network secret** on the cloud environment, not an environment
+variable. The agent proxy adds `Authorization: Bearer <key>` to requests for
+`api.resend.com`, so the key never enters the sandbox and a prompt injection in a job
+posting can't read it. Set it in claude.ai → the environment → Network secrets:
+host `api.resend.com`, header `Authorization`, prefix `Bearer`. Run by hand, set
+`CUPID_RESEND_KEY` in your shell and `send.py` adds the header itself.
 
 `send.py` builds the HTML, URL-encodes the cover-letter and intro-email `mailto:` links,
 and posts to Resend. The recipients are fixed in the script, except Ed's own address:
