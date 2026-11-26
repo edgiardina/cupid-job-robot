@@ -17,7 +17,7 @@ industries to avoid, must-haves, deal-breakers, tone notes. Keep each to one lin
 - Loves mission-driven nonprofits; lukewarm on corporate
 - Salary floor around $60k
 -->
-(none yet)
+- 2026-11-24 (Lida's reply): "Can you please focus on HR positions?" Make HR the primary focus every day (HR generalist/coordinator/manager, benefits, HR+payroll, people operations). The weekday theme becomes a secondary nudge only, applied within or alongside HR.
 
 ## Notes on the emails themselves
 <!-- examples:
